@@ -1,0 +1,22 @@
+.initials {
+  margin: 0px;
+  width: 60px;
+  /* -webkit-text-stroke: 0.4px white; */
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+  cursor: default;
+}
+
+.main-div {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-row: 200px;
+  /* border: 10px solid red; */
+}
+
+.buttons-div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
