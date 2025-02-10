@@ -1,7 +1,7 @@
 import React from "react";
 import "../component-styles/Header.css";
 import Button from "@mui/material/Button";
-import { Box, styled, Switch, Typography } from "@mui/material";
+import { Box, makeStyles, styled, Switch, Typography } from "@mui/material";
 
 function Header() {
   const MaterialUISwitch = styled(Switch)(({ theme }) => ({
@@ -65,6 +65,7 @@ function Header() {
       className="main-div"
       sx={{ backgroundColor: "#E1EACD", position: "sticky", top: 0 }}
       display={"grid"}
+      zIndex={1}
     >
       <Box
         display={"flex"}

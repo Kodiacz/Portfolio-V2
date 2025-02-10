@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import { css } from "@emotion/react";
 import About from "./About";
+import Home from "./Home";
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
         gridTemplateRows: "1fr 1fr",
       }}
     >
+      <Home />
       <About />
     </Box>
   );

@@ -11,7 +11,7 @@ function About() {
         gridTemplateColumns: "1fr 1fr",
         // columnGap: 50,
       }}
-      height="100%"
+      height="fit-content"
       display={"grid"}
       rowGap={10}
       paddingTop={"70px"}
